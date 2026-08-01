@@ -26,12 +26,12 @@ jobs:
           cache: 'npm'
           cache-dependency-path: app/package-lock.json
       
-      # Passo 3: Instalar dependências
+      # Passo 3: Instalar as dependências
       - name: 📦 Instalar dependências
         working-directory: app
         run: npm ci
       
-      # Passo 4: Executar testes
+      # Passo 4: Executar os testes
       - name: 🧪 Executar testes
         working-directory: app
         run: npm test
