@@ -11,7 +11,7 @@ env:
   NODE_VERSION: '18'
 
 jobs:
-  # Job 1: Lint e Análise de Código
+  # Job 1: Lint e Análise do Código
   lint:
     name: 🔍 Lint e Análise
     runs-on: ubuntu-latest
